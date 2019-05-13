@@ -4,7 +4,7 @@
       <v-bottom-nav :active.sync="bottomNav" :value="true" absolute color="transparent">
         <v-btn to="/" color="blue" flat value="home">
           <span>Home</span>
-          <v-icon>home</v-icon>
+          <v-icon>mdi-home</v-icon>
         </v-btn>
 
         <v-btn to="/vue" color="green" flat value="vuejs">
@@ -14,7 +14,7 @@
 
         <v-btn to="/about" color="red" flat value="sobre">
           <span>Sobre</span>
-          <v-icon>info</v-icon>
+          <v-icon>mdi-info</v-icon>
         </v-btn>
       </v-bottom-nav>
     </v-flex>
