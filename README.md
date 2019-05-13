@@ -44,8 +44,16 @@
     - Serve - este comando inicia o servidor da aplicação com Hot Reload
     
     ```vue serve```
+    - Add
+        - Vuetify
 
-- Comandos do Yarn parao Projeto
+        ```vue add vuetify```
+
+        - Axios
+
+        ```vue add axios```
+
+- Comandos do Yarn para o Projeto
     - Build
     - Start
     - Dev
