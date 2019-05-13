@@ -23,9 +23,9 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
-      bottomNav: "home"
+      bottomNav: 'home'
     }
   }
 }

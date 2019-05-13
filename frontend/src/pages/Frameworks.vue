@@ -4,14 +4,14 @@
 
 <script>
 import Frameworks from '../api/Frameworks'
-import Card from "../components/Card";
+import Card from '../components/Card'
 
 export default {
   name: 'Frameworks',
   components: {
     Card
   },
-  data() {
+  data () {
     return {
       frameworks: []
     }
