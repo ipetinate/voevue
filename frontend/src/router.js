@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './pages/Home.vue'
+import About from './pages/About'
+import VueInfo from './pages/VueInfo'
 
 Vue.use(Router)
 
@@ -16,7 +18,12 @@ export default new Router({
     {
       path: '/about',
       name: 'about',
-      component: () => import(/* webpackChunkName: "about" */ './pages/About.vue')
+      component: About
+    },
+    {
+      path: '/vue',
+      name: 'vueInfo',
+      component: VueInfo
     }
   ]
 })
