@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import Frameworks from "../api/Frameworks";
+import Frameworks from "../api/Frameworks"
 
 export default {
   name: "Frameworks",
@@ -45,32 +45,32 @@ export default {
       angular: [],
       react: [],
       vue: []
-    };
+    }
   },
   methods: {
     obterAngular() {
       Frameworks.obter('angular', 'angular').then(resposta => {
-        console.log(resposta);
-        this.frameworks.angular = resposta.data;
-      });
+        console.log(resposta)
+        this.frameworks.angular = resposta.data
+      })
     },
     obterReact() {
       Frameworks.obter('facebook', 'react').then(resposta => {
-        console.log(resposta);
-        this.frameworks.react = resposta.data;
-      });
+        console.log(resposta)
+        this.frameworks.react = resposta.data
+      })
     },
     obterVue() {
       Frameworks.obter('vuejs', 'vue').then(resposta => {
-        console.log(resposta);
-        this.frameworks.vue = resposta.data;
-      });
+        console.log(resposta)
+        this.frameworks.vue = resposta.data
+      })
     }
   },
   mounted() {
-    this.obterAngular();
-    this.obterReact();
-    this.obterVue();
+    this.obterAngular()
+    this.obterReact()
+    this.obterVue()
   }
-};
+}
 </script>
