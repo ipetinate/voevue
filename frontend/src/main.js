@@ -1,11 +1,11 @@
 import Vue from 'vue'
-import './plugins/axios'
 // Plugins
 import './plugins/vuetify'
 // Application
 import App from './App.vue'
 // Router
 import router from './router'
+// PWA
 import './registerServiceWorker'
 
 Vue.config.productionTip = false
