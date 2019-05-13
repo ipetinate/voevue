@@ -33,12 +33,16 @@
 
 - Comandos Yarn para montagem de ambiente
     - Add - utilizado para instalar pacotes (semelhante ao `npm i nome-do-pacote`)
+
     ```yarn global add @vue/cli```
 
 - Comandos da Vue CLI
     - Create - Server para criar um novo projeto
+
     ```vue create nome-do-projeto```
+    
     - Serve - este comando inicia o servidor da aplicação com Hot Reload
+    
     ```vue serve```
 
 - Comandos do Yarn parao Projeto
