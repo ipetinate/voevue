@@ -43,9 +43,7 @@ export default {
   },
   methods: {
     listar () {
-      let usuario = 'IsacPetinate'
-
-      MeuPerfil.obter(usuario).then(resposta => {
+      MeuPerfil.obter('IsacPetinate').then(resposta => {
         console.log(resposta)
         this.usuario = resposta.data
       })

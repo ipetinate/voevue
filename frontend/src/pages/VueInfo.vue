@@ -32,14 +32,8 @@
 
                 <v-card-actions>
                   <v-spacer></v-spacer>
-                  <v-btn icon>
-                    <v-icon>favorite</v-icon>
-                  </v-btn>
-                  <v-btn icon>
-                    <v-icon>bookmark</v-icon>
-                  </v-btn>
-                  <v-btn icon>
-                    <v-icon>share</v-icon>
+                  <v-btn :to="link" icon>
+                    <v-icon>open</v-icon>
                   </v-btn>
                 </v-card-actions>
               </v-card>
@@ -55,9 +49,9 @@
 export default {
   data: () => ({
     cards: [
-      { title: 'Pre-fab homes', src: 'https://cdn.vuetifyjs.com/images/cards/house.jpg', flex: 12 },
-      { title: 'Favorite road trips', src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg', flex: 6 },
-      { title: 'Best airlines', src: 'https://cdn.vuetifyjs.com/images/cards/plane.jpg', flex: 6 }
+      { title: 'Vue.js - Oficial Site', link: 'https://vuejs.org/', src: 'https://vuejs.org/images/logo.png?_sw-precache=cf23526f451784ff137f161b8fe18d5a', flex: 12 },
+      { title: 'Vuetify - Oficial Site', link: 'https://vuetifyjs.com/', src: 'https://cdn.vuetifyjs.com/images/logos/vuetify-logo-300.png', flex: 6 },
+      { title: 'Axios - Oficial Repo', link: 'https://github.com/axios/axios', src: 'https://cdn-images-1.medium.com/max/2400/1*Y4XYHylpigYOvfeqGWQmiQ.png', flex: 6 }
     ]
   })
 }
